@@ -95,6 +95,13 @@ body * {
   background-color: rgb(55, 90, 116);
 }
 
-.main {
-  margin-top: 43px;
+.main-content {
+  margin-top: 120px;
+  display: flex;
+  justify-content: center;
+}
+
+.article-content {
+  display: grid;
+  grid-template-columns: 1fr 600px 1fr;
 }
