@@ -1,0 +1,100 @@
+body * {
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+.top-bar {
+  border-bottom: 1px solid rgb(226, 226, 226);
+  position: fixed;
+  width: 100vw;
+  height: 43px;
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 5px;
+  box-sizing: border-box;
+}
+
+.header-left {
+  color: black;
+  display: flex;
+  align-items: center;
+}
+
+.header-left * {
+  margin: 0 8px;
+}
+
+.header-left svg {
+  height: 16px;
+  width: 16px;
+  padding: 8px;
+  border-radius: 3px;
+  transition: 0.5s background-color;
+  -webkit-transition: 0.5s background-color;
+  -moz-transition: 0.5s background-color;
+  -ms-transition: 0.5s background-color;
+  -o-transition: 0.5s background-color;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+  cursor: pointer;
+}
+
+.header-left svg:hover {
+  background-color: rgb(246, 246, 246);
+}
+
+.header-left a {
+  text-decoration: none;
+  color: black;
+  font-weight: 700;
+  font-size: 14.25px;
+}
+
+.header-left a:hover {
+  text-decoration: underline;
+}
+
+#nyt-logo {
+  width: 195px;
+  height: 33px;
+  padding-top: 5px;
+}
+
+.header-link {
+  text-decoration: none;
+  display: inline-block;
+}
+
+.header-button {
+  margin-right: 5px;
+  padding: 10px;
+  color: white;
+  background-color: rgb(86, 123, 149);
+  font-size: 11px;
+  font-weight: 700;
+  border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+  outline: none;
+  border: 1px solid rgb(50, 104, 145);
+  cursor: pointer;
+  display: inline-block;
+  transition: background-color 0.5s;
+  -webkit-transition: background-color 0.5s;
+  -moz-transition: background-color 0.5s;
+  -ms-transition: background-color 0.5s;
+  -o-transition: background-color 0.5s;
+}
+
+.header-button:hover {
+  background-color: rgb(55, 90, 116);
+}
+
+.main {
+  margin-top: 43px;
+}
