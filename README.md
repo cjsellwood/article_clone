@@ -1,0 +1,1 @@
+A recreation of a New York Times article with html and css to practice positioning
