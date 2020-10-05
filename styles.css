@@ -463,3 +463,22 @@ body {
   width: 92%;
   margin: 5px 0;
 }
+
+
+.page-footer {
+  width: 1200px;
+  margin: 20px auto;
+  display: flex;
+  justify-content: center;
+}
+
+.page-footer a {
+  color: rgb(102, 102, 102);
+  font-size: 11px;
+  text-decoration: none;
+  padding: 8px;
+}
+
+.page-footer a:hover {
+  text-decoration: underline;
+}
