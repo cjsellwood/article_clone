@@ -464,16 +464,49 @@ body {
   margin: 5px 0;
 }
 
+.article-bottom {
+  margin-bottom: 30px 
+}
+
+.article-bottom > p {
+  color: rgb(102, 102, 102);
+  font-size: 12px;
+  line-height: 16px;
+}
+
+.article-bottom > p > a {
+  color: rgb(102, 102, 102);
+}
+
+.article-bottom > p > a:hover {
+  text-decoration: none;
+}
+
+.buttons-container {
+  display: flex;
+  justify-content: space-between;
+  margin: 24px 0;
+}
+
+.comment-button {
+  font-size: 13px;
+  width: 330px;
+}
 
 
 
 
 
 
-
-
-
-
+.main-nav::before {
+  content: "";
+  height: 1px;
+  width: 1200px;
+  border-top: 2px solid rgb(221, 221, 221);
+  border-bottom: 1px solid rgb(221, 221, 221);
+  position: absolute;
+  left: calc(50vw - 600px)
+}
 
 
 .nav-grid {
@@ -502,6 +535,7 @@ body {
 
 .nav-grid > :last-child {
   padding-left: 15px;
+  border-left: 1px solid rgb(221, 221, 221);
 }
 
 .nav-grid h3 {
@@ -520,6 +554,35 @@ body {
   line-height: 16px;
   color: black;
   padding: 4px 0;
+}
+
+.nav-grid a:hover {
+  text-decoration: underline;
+}
+
+.nav-grid svg {
+  width: 13px;
+  height: 13px;
+  line-height: 15px;
+  margin-right: 5px;
+}
+
+.nav-grid .big-link {
+  font-size: 16px;
+  font-weight: 700;
+  overflow: visible;
+  white-space: nowrap;
+  margin: 4px 0;
+}
+
+.nav-grid .small-link {
+  font-size: 11px;
+
+}
+
+.list-separator {
+  border-bottom: 1px solid rgb(221, 221, 221);
+  margin: 5px 0 10px 0;
 }
 
 .page-footer {
