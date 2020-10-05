@@ -465,7 +465,7 @@ body {
 }
 
 .article-bottom {
-  margin-bottom: 30px 
+  margin-bottom: 30px;
 }
 
 .article-bottom > p {
@@ -493,10 +493,125 @@ body {
   width: 330px;
 }
 
+.other-articles {
+  margin: 0 auto;
+  width: 1200px;
+}
+
+.other-grid {
+  width: 1200px;
+  height: 1065.25px;
+  display: grid;
+  grid-template-areas:
+    "more popular"
+    "picks popular";
+  grid-template-columns: 1fr 315px;
+  grid-template-rows: 1fr 37.5%;
+  grid-column-gap: 30px;
+}
+
+.other-grid > * {
+  border-top: 1px solid black;
+}
+
+.more-section {
+  grid-area: more;
+}
+
+.picks-section {
+  grid-area: picks;
+}
+
+.popular-section {
+  grid-area: popular;
+}
+
+.other-article-link {
+  text-decoration: none;
+  color: rgb(18, 18, 18);
+  font-size: 18px;
+  line-height: 22px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: 500;
+}
+
+.other-article-link:hover {
+  color: rgb(102, 102, 102);
+}
+
+.other-article-photographer {
+  color: rgb(153, 153, 153);
+  font-size: 10px;
+  line-height: 12.3px;
+  text-align: right;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  padding: 3px 0;
+}
+
+.other-article-time {
+  color: rgb(153, 153, 153);
+  font-size: 12px;
+  line-height: 20px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  margin-bottom: 15px;
+}
+
+.other-grid h2 {
+  padding: 17px 0;
+  color: rgb(51, 51, 51);
+  font-weight: 700;
+}
+
+.other-grid h2 a {
+  color: rgb(51, 51, 51);
+  text-decoration: none;
+}
+
+.other-grid h2 a:hover {
+  text-decoration: underline;
+}
+
+.more-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-gap: 20px;
+}
+
+.more-section img {
+  width: 272.63px;
+  height: 182px;
+}
+
+.picks-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+}
+
+.picks-section img {
+  width: 272.63px;
+  height: 182px;
+}
 
 
+.popular-section h3 {
+  border-top: 1px solid rgb(221, 221, 221);
+  padding: 15px 0;
+  font-size: 19px;
+  font-weight: 500;
+  line-height: 23px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
 
+.popular-section h3 a {
+  color: rgb(8, 8, 8);
+  text-decoration: none;
+}
 
+.popular-section h3 a:hover {
+  color: rgb(102, 102, 102);
+}
 
 .main-nav::before {
   content: "";
@@ -505,9 +620,8 @@ body {
   border-top: 2px solid rgb(221, 221, 221);
   border-bottom: 1px solid rgb(221, 221, 221);
   position: absolute;
-  left: calc(50vw - 600px)
+  left: calc(50vw - 600px);
 }
-
 
 .nav-grid {
   display: grid;
@@ -577,7 +691,6 @@ body {
 
 .nav-grid .small-link {
   font-size: 11px;
-
 }
 
 .list-separator {
