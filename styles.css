@@ -1,4 +1,4 @@
-body * {
+body {
   font-family: Helvetica, Arial, sans-serif;
 }
 
@@ -98,7 +98,7 @@ body * {
 }
 
 .main-content {
-  margin-top: 120px;
+  margin-top: 100px;
   display: flex;
   justify-content: center;
   max-width: 1200px;
@@ -155,6 +155,7 @@ body * {
   width: 945px;
   grid-column: 1 / -1;
   justify-self: center;
+  margin-top: 10px;
 }
 
 #image1 {
@@ -164,7 +165,6 @@ body * {
 
 .figure1 figcaption {
   width: 75%;
-  line-height: 20px;
   margin-top: 5px;
 }
 
@@ -172,12 +172,14 @@ body * {
   color: rgb(102, 102, 102);
   font-family: Georgia, "Times New Roman", Times, serif;
   font-size: 16px;
+  line-height: 20px;
 }
 
 .photographer-text {
   color: rgb(136, 136, 136);
   font-family: Georgia, "Times New Roman", Times, serif;
   font-size: 14px;
+  line-height: 20px;
 }
 
 .info-container {
@@ -240,7 +242,8 @@ body * {
   background-color: white;
 }
 
-#bookmark-icon, #comment-icon {
+#bookmark-icon,
+#comment-icon {
   background-color: white;
   outline: none;
   border: none;
@@ -280,3 +283,150 @@ body * {
   font-size: 12px;
 }
 
+.create-account-ad {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.create-account-ad p {
+  color: rgb(51, 51, 51);
+  font-size: 15px;
+  line-height: 19px;
+  font-weight: 700;
+}
+
+.create-account-ad a {
+  color: rgb(50, 104, 145);
+  font-size: 15px;
+  line-height: 19px;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.separator {
+  display: grid;
+  grid-template-columns: 1fr 75px 1fr;
+  margin: 10px;
+  width: 100%;
+}
+
+.separator :nth-child(2) {
+  border-bottom: 1px solid rgb(214, 214, 214);
+}
+
+.create-account-ad :nth-child(2) {
+  margin: 5px 0;
+}
+
+.figure2 {
+  grid-column: 1 / -1;
+  width: 945px;
+  align-self: center;
+  justify-self: center;
+  margin: 10px 0;
+  position: relative;
+}
+
+#image2 {
+  width: 945px;
+  height: 576px;
+}
+
+.figure2 > figcaption > h4 {
+  font-weight: 700;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  line-height: 24px;
+  font-size: 20px;
+  margin: 3px 0;
+}
+
+.figure2 > figcaption > p {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: rgb(102, 102, 102);
+  font-size: 14px;
+  line-height: 18px;
+  margin-bottom: 5px;
+}
+
+.img-caption {
+  width: 228px;
+  height: 120px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13.5px;
+  line-height: 17px;
+  position: absolute;
+  z-index: 100;
+}
+
+.img-caption > h5 {
+  display: inline;
+  font-weight: 700;
+  margin-right: 10px;
+}
+
+.img-caption > p {
+  display: inline;
+  color: rgb(71, 71, 71);
+}
+
+.v1 {
+  top: 30%;
+}
+
+.v2 {
+  top: 68%;
+}
+
+.h1 {
+  left: 0%;
+}
+
+.h2 {
+  left: 25%;
+}
+
+.h3 {
+  left: 50%;
+}
+
+.h4 {
+  left: 75%;
+}
+
+.short-separator {
+  margin: 50px 0 20px 0;
+  width: 100%;
+  height: 1px;
+  display: grid;
+  grid-template-columns: 60px 1fr;
+}
+
+.short-separator > div:first-child {
+  border-bottom: 1px solid black;
+}
+
+.figure2-author {
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+.figure3 figcaption {
+  width: 85%;
+  margin: 5px 0;
+}
+
+#image4 {
+  width: 600px;
+  height: 401px;
+}
+
+.figure4 {
+  margin: 20px 0;
+}
+
+.figure4 figcaption {
+  width: 92%;
+  margin: 5px 0;
+}
